@@ -1,0 +1,333 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 2;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*-------------------------------------------------------------------------------------------*/
+
+
+html, body{
+	height: 100%;
+	margin: 0; 
+	padding: 0;
+	background: #eae9e8;
+	
+}
+
+/*Sidebar--------------------------------------------------------------------------------------------*/
+
+#sidebar{
+	width: 9.72vw;
+	height: 100vh;
+	background-color: #eae9e8;
+	font-family: 'Arapey', serif;
+	float: left;	
+}
+
+#sidebar li{
+	margin-left: 40px;
+	font-size: 1vw;
+}
+
+a:link, a:visited{
+	color: #373b3e;
+	text-decoration: none;
+}
+ 
+a:hover, a:active{
+	color: #ed7225;
+	text-decoration: none;
+}
+
+#sidebar img[src="img/logo.png"]{
+	height: auto;
+	width: 3vw;
+	margin: 50px 0 1vw 40px;
+}
+
+/*Sidebar End--------------------------------------------------------------------------------------------*/
+
+/*Landing--------------------------------------------------------------------------------------------*/
+
+#wrapper{
+	width: 100%;
+	height: 100%;
+	background: #eae9e8;
+}
+
+
+
+#center{
+	width: 40.8vw;
+	height: 100vh;
+	background: #eae9e8;
+	float: left;
+	font-family: 'Arapey', serif;
+	font-style: italic;
+	text-align: center;
+	
+}
+
+#center h1{
+	font-size: 3vw;
+	color: #373b3e;
+	margin-top: 30vh; 
+	margin-bottom: 2.5vh; 
+	line-height: 1.4;
+}
+
+#center img[src="img/webdesign1.png"]{
+	height: 3.5vw;
+	width: auto;
+}
+
+	
+#side{
+	background-color: #373b3e;
+	height: 96%;
+	width: 49.48vw;
+	margin: 0 0 0 50.52%;
+	position: relative;
+	top: 2%;
+
+}
+
+#side img[src="img/Jackolo.png"]{
+	height: auto;
+	width: 27vw;
+	display: block;
+	margin-left: auto;
+  	margin-right: auto;
+	position: relative;
+	top: 15%;
+	box-shadow: 30px 30px 7px rgba(0, 0, 0, 0.35);
+	
+}
+
+/*Landing End--------------------------------------------------------------------------------------------*/
+
+/*About--------------------------------------------------------------------------------------------*/
+
+#aboutcenter{
+	background-color: #373b3e;
+	height: 36vw;
+	width: 80vw;
+	margin-top: 8vw;
+	margin-left: 1vw;
+	float:left;
+	text-align: center;
+	font-family: 'Arapey', serif;
+	box-shadow: 40px 40px 7px rgba(0, 0, 0, 0.35);
+	
+}
+
+#aboutcenter img[src="img/profilepic.png"]{
+	height: auto;
+	width: 12vw;
+	float: none;
+	margin: 3vw 29% 1vw;
+}
+
+#aboutcenter img[src="img/webdesignorange.png"]{
+	height: auto;
+	width: 22vw;
+	float: none;
+	margin: 0 34% 0;
+}
+
+#aboutcenter h1{
+	color: #eae9e8;
+	font-size: 1.25vw;
+}
+
+#aboutcenter h2{
+	color: #eae9e8;
+	font-size: 1vw;
+	line-height: 1.25;
+	margin: 0 6vw
+}
+
+/*About End--------------------------------------------------------------------------------------------*/
+/*Contact--------------------------------------------------------------------------------------------*/
+
+#contactcenter{
+	background-color: #373b3e;
+	height: 36vw;
+	width: 80vw;
+	margin-top: 1vw;
+	margin-left: 1vw;
+	float:left;
+	font-family: 'Arapey', serif;
+	color: #eae9e8;
+	box-shadow: 40px 40px 7px rgba(0, 0, 0, 0.35);
+	
+}
+
+#contacttop{
+	margin-right: 9vw;
+	margin-left: 11vw;
+	padding-top: 2.5vw;;
+	text-align: center;
+}
+
+#contacttop h1{
+	font-family: 'Arapey', serif;
+	font-size: 2.2vw;
+	font-style: italic;
+}
+
+#contacttop img[src="img/webdesignorange.png"]{
+	height: auto;
+	width: 22vw;
+	
+}
+
+#contactcenter h2{
+	font-family: 'Arapey', serif;
+	margin-top: 4.5vw;
+	padding-left: 10vw;
+	font-size: 1.5vw;
+}
+
+#emailbox{
+	height: 15vw;
+	width: 60vw;
+	margin-left: 10vw; 
+	background-color: #eae9e8; 
+}
+
+#contactcenter img[src="img/devianticon.png"], img[src="img/instagramicon.png"], img[src="img/pintresticon.png"], img[src="img/twittericon.png"] {
+	height: auto;
+	width: 4.5vw;
+	margin: 1vw 1vw 0 0;
+	
+}
+
+#contactcenter img[src="img/devianticon.png"]{
+	margin-left: 10vw;
+}
+
+#contactcenter img[src="img/submitbutton.png"]{
+	height: auto;
+	width: 8.5vw;
+	margin-left: 28.97vw;
+	padding-bottom: 2vw;
+}
+
+/*Contact End--------------------------------------------------------------------------------------------*/
+
+/*Resume--------------------------------------------------------------------------------------------*/
+
+#resumecenter{
+    width: 40vw;
+	height: 100vh;
+	background-color: #5C5555;
+	float: left;
+}
+
+#resumeside{
+	margin-top: 2vh;
+	width:50.26vw;
+	height: 96vh;
+	background-color: #36424F;
+	float: left;
+	
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
