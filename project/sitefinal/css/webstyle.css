@@ -371,7 +371,7 @@ nav.portfolio{
 
 }
 
-#gallerymain img[src="img/matte.jpg"]{
+#gallerymain img[src="img/Matte.jpg"]{
 	width: 85vw;
 	height: auto;
 }
@@ -382,31 +382,31 @@ nav.portfolio{
 	float:left;
 }
 
-#gallerymain img[src="img/stargazing.jpg"]{
+#gallerymain img[src="img/Stargazing.jpg"]{
 	width: 49vw;
 	height: auto;
 	margin-left: 18px;
 }
 
-#gallerymain img[src="img/hell.jpg"]{
+#gallerymain img[src="img/Hell.jpg"]{
 	width: 49vw;
 	height: auto;
 	margin-left: 18px;
 }
 
-#gallerymain img[src="img/desert.jpg"]{
+#gallerymain img[src="img/Desert.jpg"]{
 	width: 49vw;
 	height: auto;
 	float: left;
 }
 
-#gallerymain img[src="img/busstop.jpg"]{
+#gallerymain img[src="img/Busstop.jpg"]{
 	width: 35vw;
 	height: auto;
 	float: right;
 }
 
-#gallerymain img[src="img/mountains.jpg"]{
+#gallerymain img[src="img/Mountains.jpg"]{
 	width: 48.9vw;
 	height: 21.5vw;
 	margin-top: 10px;
@@ -452,7 +452,7 @@ section{
 	color: #eae9e8;
 }
 
-#previewcenter img[src="img/matte.jpg"]{
+#previewcenter img[src="img/Matte.jpg"]{
 	height: auto;
 	width: 37vw;
 	margin: 16vw 0 2vw 0vw;
